@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace teste_de_mesa_3_parte
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = 7;
+            int b = a - 6;
+            int[] vetor = new int[10];
+
+
+            while (b < a)
+            {
+                vetor[b] = b + a;
+                Console.WriteLine(vetor[b]);
+                b = b + 2;                
+            }
+            Console.ReadLine();
+        }
+    }
+}
